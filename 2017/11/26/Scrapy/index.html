@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="爬虫1234567url模块综合url和lib的一个包 第一部分是协议：http,https,ftp,file,ed2k…第二部分是存放资源的服务器的域名系统或IP地址（有时候要包含端口号，各种传输协议都有默认的端口，如http的默认端口是80）第三部分是资源的具体地址，如目录或者文件名等 python中操作文件步骤">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-27T03:23:20.171Z">
+<meta property="og:updated_time" content="2017-11-27T03:37:36.367Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Scrapy笔记">
 <meta name="twitter:description" content="爬虫1234567url模块综合url和lib的一个包 第一部分是协议：http,https,ftp,file,ed2k…第二部分是存放资源的服务器的域名系统或IP地址（有时候要包含端口号，各种传输协议都有默认的端口，如http的默认端口是80）第三部分是资源的具体地址，如目录或者文件名等 python中操作文件步骤">
@@ -360,8 +360,6 @@
 <p>selenium自动下拉,模仿按键精灵</p>
 <p>MVC 模型视图控制器</p>
 </blockquote>
-<h3 id="HTTP"><a href="#HTTP" class="headerlink" title="HTTP"></a>HTTP</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">HTTP协议是一个无状态的协议，同一个客户端的这次请求和上次请求是没有对应关系。</span><br><span class="line"></span><br><span class="line">MIME:设定某种扩展名的文件用一种应用程序来打开的方式类型，当该扩展名文件被访问的时候，浏览器会自动使用指定应用程序来打开</span><br></pre></td></tr></table></figure>
-<h3 id="HTTP工作流程"><a href="#HTTP工作流程" class="headerlink" title="HTTP工作流程:"></a>HTTP工作流程:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">1.客户机和服务器建立连接,单机超链接,http开始工作</span><br><span class="line">2.建立连接后,客户机发送请求给服务器,发送格式为:</span><br><span class="line">	统一资源标识符(URL),</span><br><span class="line">	协议版本号,</span><br><span class="line">	MIME:请求修饰符,客户机信息</span><br><span class="line">3.服务器接到请求,回应响应信息,返回格式为:</span><br><span class="line">	信息协议版本号,</span><br><span class="line">	成功或错误码,</span><br><span class="line">	MIME:服务器信息,实体信息,可能内容</span><br><span class="line">4.客户机接到服务器返回信息通过浏览器显示在用户显示屏,客户机与服务器断开连接</span><br></pre></td></tr></table></figure>
 <h3 id="计算10天前是几号"><a href="#计算10天前是几号" class="headerlink" title="计算10天前是几号"></a>计算10天前是几号</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">import datetime</span><br><span class="line">from datetime import timedelta</span><br><span class="line">(datetime.datetime.now() - datetime.timedelta(days = 10)).strftime(&quot;%Y-%m-%d&quot;)</span><br></pre></td></tr></table></figure>
 <h3 id="网络爬虫的原理-网络请求-抓取结构化数据-数据存储"><a href="#网络爬虫的原理-网络请求-抓取结构化数据-数据存储" class="headerlink" title="网络爬虫的原理 网络请求 抓取结构化数据 数据存储"></a>网络爬虫的原理 网络请求 抓取结构化数据 数据存储</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1.打开浏览器,输入URL,打开源网页</span><br><span class="line">2.选取我们想要的内容</span><br><span class="line">3.存入到硬盘中</span><br></pre></td></tr></table></figure>
 <h3 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">随机删除元素:popitem()</span><br></pre></td></tr></table></figure>
@@ -424,8 +422,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/11/27/name/" rel="prev" title="name">
-                name <i class="fa fa-chevron-right"></i>
+              <a href="/2017/11/27/HTTP/" rel="prev" title="HTTP的见解">
+                HTTP的见解 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -503,7 +501,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -514,7 +512,7 @@
               
               <div class="site-state-item site-state-categories">
                 
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 
               </div>
@@ -525,7 +523,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -574,7 +572,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#爬虫"><span class="nav-number">1.</span> <span class="nav-text">爬虫</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python中操作文件步骤"><span class="nav-number"></span> <span class="nav-text">python中操作文件步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#计算机操作系统分为-硬件-操作系统-应用程序"><span class="nav-number">1.</span> <span class="nav-text">计算机操作系统分为:硬件,操作系统,应用程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HTTP"><span class="nav-number">2.</span> <span class="nav-text">HTTP</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#HTTP工作流程"><span class="nav-number">3.</span> <span class="nav-text">HTTP工作流程:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#计算10天前是几号"><span class="nav-number">4.</span> <span class="nav-text">计算10天前是几号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网络爬虫的原理-网络请求-抓取结构化数据-数据存储"><span class="nav-number">5.</span> <span class="nav-text">网络爬虫的原理 网络请求 抓取结构化数据 数据存储</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#集合"><span class="nav-number">6.</span> <span class="nav-text">集合</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Apache和Tomcat比较"><span class="nav-number">7.</span> <span class="nav-text">Apache和Tomcat比较</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网页爬虫的基本工作原理"><span class="nav-number">8.</span> <span class="nav-text">网页爬虫的基本工作原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#用于转化header"><span class="nav-number">9.</span> <span class="nav-text">用于转化header</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#积累"><span class="nav-number">10.</span> <span class="nav-text">积累</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cookie"><span class="nav-number">11.</span> <span class="nav-text">cookie</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第四天-正则表达式"><span class="nav-number"></span> <span class="nav-text">第四天  正则表达式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#day5-反反爬"><span class="nav-number"></span> <span class="nav-text">day5:反反爬</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#周一-如何解析页面-提取数据"><span class="nav-number">1.</span> <span class="nav-text">周一: 如何解析页面,提取数据</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#爬虫"><span class="nav-number">1.</span> <span class="nav-text">爬虫</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#python中操作文件步骤"><span class="nav-number"></span> <span class="nav-text">python中操作文件步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#计算机操作系统分为-硬件-操作系统-应用程序"><span class="nav-number">1.</span> <span class="nav-text">计算机操作系统分为:硬件,操作系统,应用程序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#计算10天前是几号"><span class="nav-number">2.</span> <span class="nav-text">计算10天前是几号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网络爬虫的原理-网络请求-抓取结构化数据-数据存储"><span class="nav-number">3.</span> <span class="nav-text">网络爬虫的原理 网络请求 抓取结构化数据 数据存储</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#集合"><span class="nav-number">4.</span> <span class="nav-text">集合</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Apache和Tomcat比较"><span class="nav-number">5.</span> <span class="nav-text">Apache和Tomcat比较</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网页爬虫的基本工作原理"><span class="nav-number">6.</span> <span class="nav-text">网页爬虫的基本工作原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#用于转化header"><span class="nav-number">7.</span> <span class="nav-text">用于转化header</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#积累"><span class="nav-number">8.</span> <span class="nav-text">积累</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cookie"><span class="nav-number">9.</span> <span class="nav-text">cookie</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第四天-正则表达式"><span class="nav-number"></span> <span class="nav-text">第四天  正则表达式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#day5-反反爬"><span class="nav-number"></span> <span class="nav-text">day5:反反爬</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#周一-如何解析页面-提取数据"><span class="nav-number">1.</span> <span class="nav-text">周一: 如何解析页面,提取数据</span></a></li></ol></div>
             
 
           </div>
